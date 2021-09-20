@@ -66,6 +66,7 @@ func main() {
 	/*
 	Cara pertama : Membuat objek pointer dari struct jsonpb.Unmarshaler, lalu mengakses method .Unmarshal(). Parameter pertama diisi dengan objek io.Reader yang isinya json string, dan parameter kedua adalah receiver.
 	*/
+	
 
 	// buf2 := strings.NewReader(jsonString)
 	// protoObject := new(model.GarageList)
